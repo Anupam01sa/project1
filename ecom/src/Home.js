@@ -1,6 +1,6 @@
 import HeroSection from "./components/HeroSection";
 
-//import Featureproduct from "./components/Featureproduct";
+import Featureproduct from "./components/Featureproduct";
 
 const Home = () => {
   const data = {
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <HeroSection myData={data} />
-      <books/>
+      <featureproduct/>
      
      
     </>
